@@ -1,0 +1,102 @@
+.fs-o {
+  font-size: 4rem;
+}
+.fs-7 {
+  font-size: 0.8rem;
+}
+.bg-gray {
+  background-color: #f0f2f5;
+}
+.nav__btn button:hover {
+  background: #f0f2f5 !important;
+}
+.nav__btn button:hover i {
+  color: #0d6efd !important;
+}
+.nav__btn-active i {
+  color: #0d6efd !important;
+}
+.nav__btn-active {
+  position: relative;
+}
+.nav__btn-active::before {
+  content: "";
+  position: absolute;
+  bottom: -4.5px;
+  left: 0;
+  transform: translateY(4.5px);
+  width: 100%;
+  height: 3px;
+  border-bottom: 3px solid #0d6efd !important;
+}
+/*chat box*/
+.modal-content:hover .fa-phone {
+  color: #0d6efd !important;
+}
+.modal-content:hover .fa-video {
+  color: #0d6efd !important;
+}
+.modal-content:hover .fa-file-image {
+  color: #0d6efd !important;
+}
+.modal-content:hover .fa-circle-plus {
+  color: #0d6efd !important;
+}
+.modal-content:hover .fa-portriat {
+  color: #0d6efd !important;
+}
+.modal-content:hover .fa-adjust {
+  color: #0d6efd !important;
+}
+.modal-content:hover .fa-thumbs-up {
+  color: #0d6efd !important;
+}
+/*edit*/
+.edit-button {
+  opacity: 0;
+}
+.edit-button:hover {
+  opacity: 1;
+}
+.edit-heading:hover.edit-button {
+  opacity: 1;
+}
+/*scrollbar*/
+.scrollbar:hover {
+  overflow: auto !important;
+}
+.dorpdown-item:active {
+  background-color: #d5d5d5 !important;
+}
+/*pop-avatar*/
+.pop-avatar {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+/*stories*/
+.story:hover {
+  opacity: 0.8;
+}
+/*Comment*/
+.post__comment .accordion-button::after {
+  margin-left: 0 !important;
+  display: none !important;
+}
+.post__comment .accordion-button:hover {
+  background: transparent !important;
+  border-color: transparent !important;
+}
+.post__comment .accordion-button:not(.collapsed) {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+@media (min-width: 62em) {
+  footer {
+    position: fixed;
+    width: 100%;
+  }
+}
